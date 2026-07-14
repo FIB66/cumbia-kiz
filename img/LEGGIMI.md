@@ -5,10 +5,13 @@ Salva qui le foto con questi nomi ESATTI e appariranno da sole sul sito:
 | Nome file | Dove appare |
 |-----------|-------------|
 | `coppia.jpg` | Foto grande nella sezione "La Storia" (Alessandro & Lorena) |
-| `galleria-1.jpg` | Galleria — riquadro 1 |
-| `galleria-2.jpg` | Galleria — riquadro 2 |
-| `galleria-3.jpg` | Galleria — riquadro 3 |
-| `galleria-4.jpg` | Galleria — riquadro 4 |
+
+## Galleria (video/foto)
+La galleria ora mostra 4 **diapositive grafiche temporanee** (`slide-1.svg` … `slide-4.svg`) al posto dei video veri.
+Quando hai i video/foto reali, mandameli e li metto io al posto delle diapositive.
+
+## Logo
+`logo.svg` è il logo della Cumbia Kiz (usato anche come icona del sito). Per usarlo come foto profilo social serve in formato PNG/JPG: dimmelo e lo convertiamo.
 
 ## Come fare
 1. Salva le foto dal telefono/Facebook sul computer

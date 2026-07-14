@@ -1,0 +1,12 @@
+<svg viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cumbia Kiz">
+  <defs><linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#2a0f1c"/><stop offset="0.5" stop-color="#e01e5a"/><stop offset="1" stop-color="#ff6b35"/></linearGradient></defs>
+  <rect width="600" height="800" fill="url(#g4)"/>
+  <g fill="#ffcb47" opacity="0.85">
+    <circle cx="110" cy="140" r="10"/><circle cx="470" cy="110" r="14"/><circle cx="520" cy="300" r="9"/>
+    <circle cx="90" cy="360" r="13"/><circle cx="500" cy="560" r="11"/><circle cx="120" cy="620" r="9"/><circle cx="470" cy="700" r="12"/></g>
+  <circle cx="255" cy="360" r="30" fill="#fff"/><circle cx="345" cy="360" r="30" fill="#fff"/>
+  <path d="M215 410 Q300 500 385 410" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round"/>
+  <text x="300" y="560" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-weight="900" font-size="46" letter-spacing="3" fill="#fff">ALESSANDRO</text>
+  <text x="300" y="612" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-weight="900" font-size="46" letter-spacing="3" fill="#ffcb47">&amp; LORENA</text>
+</svg>
