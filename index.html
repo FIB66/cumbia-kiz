@@ -85,10 +85,12 @@
   @media(max-width:820px){.story-grid{grid-template-columns:1fr;gap:32px}}
   .story p{color:var(--muted);margin-bottom:16px}
   .story p strong{color:var(--text)}
-  .photo-ph{border-radius:20px;min-height:360px;border:1px dashed rgba(255,255,255,.25);
+  .photo-ph{position:relative;overflow:hidden;border-radius:20px;min-height:360px;border:1px dashed rgba(255,255,255,.25);
     background:linear-gradient(135deg,rgba(224,30,90,.25),rgba(255,107,53,.25));
     display:flex;align-items:center;justify-content:center;text-align:center;color:var(--muted);
     font-size:.9rem;padding:24px}
+  .photo-real,.g-real{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}
+  .g-ph .play,.g-ph .vlabel{z-index:2}
 
   /* cos'è */
   .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}
@@ -188,7 +190,10 @@
       <div class="creds"><span>Kizomba</span><span>Semba</span><span>Urban</span><span>Tarraxo</span><span>Cumbia Kiz</span></div>
       <p class="fest">★ Artisti al KiMa International Marche Festival 2026</p>
     </div>
-    <div class="photo-ph"><span style="font-size:1.6rem;font-weight:800;color:var(--text)">Alessandro &amp; Lorena</span><br><span style="opacity:.75;margin-top:8px;display:block">Foto in arrivo</span></div>
+    <div class="photo-ph">
+      <img src="img/coppia.jpg" alt="Alessandro Torresi e Lorena Marinucci, creatori della Cumbia Kiz" class="photo-real" onerror="this.remove()">
+      <span style="font-size:1.6rem;font-weight:800;color:var(--text)">Alessandro &amp; Lorena</span><br><span style="opacity:.75;margin-top:8px;display:block">Foto in arrivo</span>
+    </div>
   </div>
 </section>
 
@@ -261,10 +266,10 @@
     <h2 class="sec-title">Guarda la Cumbia Kiz</h2>
     <p class="lead2">La Cumbia Kiz in azione: clip dalle nostre lezioni e dalle serate nelle Marche.</p>
     <div class="gallery">
-      <div class="g-ph video"><span class="play">▶</span><span class="vlabel">Cumbia Kiz · il passo base</span></div>
-      <div class="g-ph video"><span class="play">▶</span><span class="vlabel">Serata dal vivo</span></div>
-      <div class="g-ph video"><span class="play">▶</span><span class="vlabel">Lezione principianti</span></div>
-      <div class="g-ph video"><span class="play">▶</span><span class="vlabel">Alessandro &amp; Lorena</span></div>
+      <div class="g-ph video"><img src="img/galleria-1.jpg" alt="Cumbia Kiz" class="g-real" onerror="this.remove()" onload="var p=this.parentElement.querySelector('.play'); if(p) p.style.display='none'"><span class="play">▶</span><span class="vlabel">Cumbia Kiz · il passo base</span></div>
+      <div class="g-ph video"><img src="img/galleria-2.jpg" alt="Cumbia Kiz" class="g-real" onerror="this.remove()" onload="var p=this.parentElement.querySelector('.play'); if(p) p.style.display='none'"><span class="play">▶</span><span class="vlabel">Serata dal vivo</span></div>
+      <div class="g-ph video"><img src="img/galleria-3.jpg" alt="Cumbia Kiz" class="g-real" onerror="this.remove()" onload="var p=this.parentElement.querySelector('.play'); if(p) p.style.display='none'"><span class="play">▶</span><span class="vlabel">Lezione principianti</span></div>
+      <div class="g-ph video"><img src="img/galleria-4.jpg" alt="Cumbia Kiz" class="g-real" onerror="this.remove()" onload="var p=this.parentElement.querySelector('.play'); if(p) p.style.display='none'"><span class="play">▶</span><span class="vlabel">Alessandro &amp; Lorena</span></div>
     </div>
   </div>
 </section>
