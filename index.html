@@ -69,6 +69,15 @@
   .sec-title{font-size:clamp(1.8rem,4vw,2.8rem);margin-bottom:20px}
   .lead2{color:var(--muted);font-size:1.1rem;max-width:720px}
   .sub-h{font-size:1.3rem;margin:44px 0 4px;color:var(--text)}
+  .creds{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 14px}
+  .creds span{background:var(--card);border:1px solid var(--line);padding:6px 13px;border-radius:100px;font-size:.85rem;color:var(--muted)}
+  .fest{display:inline-flex;align-items:center;gap:8px;color:var(--gold);font-weight:700;font-size:.95rem;
+    background:rgba(255,203,71,.1);border:1px solid rgba(255,203,71,.3);padding:8px 14px;border-radius:12px}
+  .g-ph.video{flex-direction:column;justify-content:center;gap:12px;position:relative;overflow:hidden}
+  .g-ph .play{width:54px;height:54px;border-radius:50%;background:rgba(255,255,255,.92);color:#140b10;
+    display:flex;align-items:center;justify-content:center;font-size:1.15rem;padding-left:4px}
+  .g-ph .vlabel{position:absolute;left:0;right:0;bottom:0;padding:10px 12px;font-size:.78rem;color:#fff;
+    text-align:left;background:linear-gradient(0deg,rgba(0,0,0,.55),transparent)}
 
   /* storia */
   .story{background:linear-gradient(180deg,transparent,rgba(255,107,53,.04))}
@@ -166,13 +175,18 @@
   <div class="wrap story-grid">
     <div>
       <div class="eyebrow">La Storia</div>
-      <h2 class="sec-title">Uno stile nato dall'amore per il ballo</h2>
-      <p><strong>Alessandro e Lorena</strong>, marito e moglie, insegnanti di kizomba, hanno unito
-      la sensualità della kizomba con l'energia della cumbia. Così, nel 2026, è nata la <strong>Cumbia Kiz</strong>.</p>
-      <p>Non è una moda importata da fuori: è un ballo <strong>creato qui, nelle Marche</strong>, dai suoi
+      <h2 class="sec-title">Nata dalla pista da ballo delle Marche</h2>
+      <p><strong>Alessandro Torresi</strong> e <strong>Lorena Marinucci</strong>, marito e moglie,
+      insegnano da anni <strong>kizomba, semba, urban e tarraxo</strong>. Ballando ogni sera nelle Marche
+      hanno notato una cosa: qui la <strong>cumbia</strong> è regina — 9 balli su 10 in una serata sono
+      cumbie o fox.</p>
+      <p>Da qui l'idea: unire la tecnica e la connessione della kizomba con il ritmo della cumbia, il ballo
+      che i marchigiani amano di più. Il risultato è la <strong>Cumbia Kiz</strong> — un modo nuovo di
+      ballare, che parla la lingua delle nostre serate.</p>
+      <p>Non è una moda importata da fuori: è uno stile <strong>creato qui, nel 2026</strong>, dai suoi
       due fondatori. Chi lo impara da loro, lo impara dalla fonte.</p>
-      <p>Dall'unione di due passioni — e di due persone che si amano — è nato un modo nuovo di ballare
-      insieme. E questo è solo l'inizio.</p>
+      <div class="creds"><span>Kizomba</span><span>Semba</span><span>Urban</span><span>Tarraxo</span><span>Cumbia Kiz</span></div>
+      <p class="fest">★ Artisti al KiMa International Marche Festival 2026</p>
     </div>
     <div class="photo-ph"><span style="font-size:1.6rem;font-weight:800;color:var(--text)">Alessandro &amp; Lorena</span><br><span style="opacity:.75;margin-top:8px;display:block">Foto in arrivo</span></div>
   </div>
@@ -210,7 +224,7 @@
       <div class="course">
         <div class="lvl">📍 Sede</div>
         <h3>Matelica</h3>
-        <ul><li>Mercoledì · 21:00 – 22:30</li><li>Principianti &amp; Intermedio</li></ul>
+        <ul><li>Mercoledì · 21:00 – 22:30</li><li>Principianti &amp; Intermedio</li><li>Scuola Stella Dance · Via A. Merloni 29</li></ul>
       </div>
       <div class="course">
         <div class="lvl">📍 Sede</div>
@@ -245,12 +259,12 @@
   <div class="wrap">
     <div class="eyebrow">In Movimento</div>
     <h2 class="sec-title">Guarda la Cumbia Kiz</h2>
-    <p class="lead2">Presto foto e video delle nostre lezioni e delle serate. Seguici sui social per non perderteli.</p>
+    <p class="lead2">La Cumbia Kiz in azione: clip dalle nostre lezioni e dalle serate nelle Marche.</p>
     <div class="gallery">
-      <div class="g-ph">✦ Presto online</div>
-      <div class="g-ph">✦ Presto online</div>
-      <div class="g-ph">✦ Presto online</div>
-      <div class="g-ph">✦ Presto online</div>
+      <div class="g-ph video"><span class="play">▶</span><span class="vlabel">Cumbia Kiz · il passo base</span></div>
+      <div class="g-ph video"><span class="play">▶</span><span class="vlabel">Serata dal vivo</span></div>
+      <div class="g-ph video"><span class="play">▶</span><span class="vlabel">Lezione principianti</span></div>
+      <div class="g-ph video"><span class="play">▶</span><span class="vlabel">Alessandro &amp; Lorena</span></div>
     </div>
   </div>
 </section>
@@ -266,9 +280,9 @@
     </div>
     <p style="margin-top:26px;font-size:.98rem">📍 <strong>Castelraimondo</strong> · <strong>Matelica</strong> · <strong>Macerata</strong></p>
     <div class="socials">
-      <a href="#" title="Facebook" target="_blank">f</a>
-      <a href="#" title="Instagram" target="_blank">◎</a>
-      <a href="#" title="TikTok" target="_blank">♪</a>
+      <a href="https://www.facebook.com/alessandro.torresi.3" title="Facebook — Alessandro Torresi" target="_blank">f</a>
+      <a href="https://www.facebook.com/lorena.marinucci.9" title="Facebook — Lorena Marinucci" target="_blank">f</a>
+      <a href="#" title="Instagram (presto)" target="_blank">◎</a>
     </div>
   </div>
 </section>
