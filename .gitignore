@@ -14,3 +14,8 @@ dist/
 
 # Log
 *.log
+
+# Documenti di strategia: il repo e' pubblico (richiesto da GitHub Pages),
+# quindi restano solo in locale in "Cumbia Kiz - Privato"
+Piano-Cumbia-Kiz.md
+Guida-Social.md
