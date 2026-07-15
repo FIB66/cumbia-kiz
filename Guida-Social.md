@@ -22,7 +22,7 @@ Se una pagina "non esiste", il nome è libero. Scegli la variante disponibile su
 2. Profilo → **Modifica profilo** → imposta nome utente `@cumbiakiz`
 3. Nome: **Cumbia Kiz — Alessandro & Lorena**
 4. Bio: *"I creatori della Cumbia Kiz 💃🕺 · Corsi nelle Marche · Prova gratuita 👇"*
-5. Aggiungi il link al sito: **https://fib66.github.io/cumbia-kiz/**
+5. Aggiungi il link al sito: **https://cumbiakiz.it**
 6. Foto profilo: una bella foto della coppia (o il futuro logo)
 7. (Consigliato) Impostazioni → **Passa a un account Business** → categoria "Istruzione/Arte" per avere le statistiche
 
